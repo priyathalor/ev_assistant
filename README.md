@@ -80,3 +80,4 @@ Vite proxies `/api` to `http://localhost:5000`, so both must be running.
 
 There's no pre-seeded user — register one via `/register`. Charging stations are seeded via `npm run seed` in `server/`.
 # ev_assistant
+
