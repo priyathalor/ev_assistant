@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI-Based Smart EV Assistant
 
 Full-stack app: battery failure prediction (ML), charging station finder, slot booking, and a smart EV route planner.
@@ -80,6 +79,4 @@ Vite proxies `/api` to `http://localhost:5000`, so both must be running.
 ## Sample login for testing
 
 There's no pre-seeded user — register one via `/register`. Charging stations are seeded via `npm run seed` in `server/`.
-=======
 # ev_assistant
->>>>>>> 3d81477033087c9c06357c7d314348e5599e52fb
