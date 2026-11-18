@@ -1,21 +1,38 @@
-# Node.js dependencies
+# Node modules
 node_modules/
-**/node_modules/
+client/node_modules/
+server/node_modules/
+
+# Python virtual environment
+ml/venv/
+venv/
+__pycache__/
+*.pyc
 
 # Environment variables and secrets
 .env
 .env.*
 !.env.example
 
-# Python cache and virtual environments
-__pycache__/
-*.pyc
-venv/
-.venv/
+client/.env
+server/.env
+ml/.env
 
 # Build files
 dist/
 build/
 
-# IDE settings
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
 .vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+.pytest_cache/

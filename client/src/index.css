@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.js";
 
 body {
   @apply bg-gradient-to-br from-primary-50 via-white to-accent-400/10 text-slate-800;
